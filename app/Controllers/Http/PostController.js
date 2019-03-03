@@ -21,18 +21,6 @@ class PostController {
   }
 
   /**
-   * Render a form to be used for creating a new post.
-   * GET posts/create
-   *
-   * @param {object} ctx
-   * @param {Request} ctx.request
-   * @param {Response} ctx.response
-   * @param {View} ctx.view
-   */
-  async create ({ request, response, view }) {
-  }
-
-  /**
    * Create/save a new post.
    * POST posts
    *
@@ -53,18 +41,6 @@ class PostController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-  }
-
-  /**
-   * Render a form to update an existing post.
-   * GET posts/:id/edit
-   *
-   * @param {object} ctx
-   * @param {Request} ctx.request
-   * @param {Response} ctx.response
-   * @param {View} ctx.view
-   */
-  async edit ({ params, request, response, view }) {
   }
 
   /**
